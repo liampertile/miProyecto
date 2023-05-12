@@ -8,7 +8,7 @@ superficieTriangulo base altura = (base * altura) / 2.0
 
 anioBisiesto :: Integer -> Bool
 
-anioBisiesto anio =  anio`mod` 4 == 0 && (anio `mod` 100 /= 0 || anio `mod` 400 == 0)
+anioBisiesto anio =  anio `mod` 4 == 0 && (anio `mod` 100 /= 0 || anio `mod` 400 == 0)
 
 {-Potencia de un numero-}
 
